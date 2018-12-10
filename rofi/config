@@ -1,2 +1,11 @@
+!Use custom theme in ~/.config/wal/templates/colors-rofi-dark.rasi
 rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 
+!set location top center
+rofi.location: 2
+rofi.font: TerminessTTF Nerd Font Mono 13
+rofi.fullscreen: true
+rofi.separator-style: dash
+rofi.hide-scrollbar: true
+rofi.lines: 5
+rofi.bw: 0

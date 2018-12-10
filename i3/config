@@ -179,7 +179,6 @@ bindsym Mod1+r mode "resize"
 default_border pixel 0
 gaps inner 10
 gaps outer 5
-gaps top 22
 
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% #increase volume

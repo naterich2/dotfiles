@@ -1,11 +1,14 @@
 !#/bin/bash
 
 # Terminate already running bar instances
-killall -q polybar
+#killall -q polybar
 
 # Wait until the processes have been shut down
-while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+#while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
-polybar left &
-polybar center &
-polybar right &
+if pgrep -u $UID -x polybar >/dev/null; then
+        killall - q polybar
+else
+        polybar top &
+fi
+#polybar top &

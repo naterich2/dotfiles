@@ -1,0 +1,35 @@
+
+{{
+	"name": "wal-colors",
+	"author": "Nate richman",
+	"title": {{
+		"fg": "{color2}"
+	}},
+	"chart": {{
+		"fg": "{color1}",
+		"border": {{
+			"type": "line",
+			"fg": "{color2}"
+		}}
+	}},
+	"table": {{
+		"fg": "{color2}",
+                "bg": "{background}",
+		"items": {{
+			"selected": {{
+				"bg": "{color1}",
+				"fg": "{color4}"
+			}},
+			"item": {{
+				"fg": "{color5}"
+			}}
+		}},
+		"border": {{
+			"type": "line",
+			"fg": "{color6}"
+		}}
+	}},
+	"footer": {{
+		"fg": "{color7}"
+	}}
+}}

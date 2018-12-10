@@ -4,7 +4,7 @@ audible_bell = false
 visible_bell = true
 #clickable_url = true
 #dynamic_title = true
-font =  SpaceMono Nerd Font Mono 12 
+font =  SpaceMono Nerd Font Mono 10 
 
 #font = SourceCodePro for Powerline Regular 12 
 #fullscreen = true
@@ -45,7 +45,7 @@ scrollbar = off
 # If both of these are unset, cursor falls back to the foreground color,
 # and cursor_foreground falls back to the background color.
 #background = rgba(66,72,84,.85)
-background = rgba(150,150,150,.7)
+background = rgba(100,100,100,.7)
 
 # 20% background transparency (requires a compositor)
 #background = rgba(63, 63, 63, 0.8)
